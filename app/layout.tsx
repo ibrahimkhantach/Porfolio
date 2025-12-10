@@ -3,8 +3,9 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import { ThemeProvider } from "./components/theme-provider";
 import { Header } from "./components/header";
-import { MouseBackground } from "./components/mouse-background";
 import { ScrollProgress } from "./components/scroll-progress";
+import { CustomCursor } from "./components/custom-cursor";
+import { LoadingScreen } from "./components/loading-screen";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -78,8 +79,9 @@ export default function RootLayout({
           enableSystem
           disableTransitionOnChange
         >
+          <LoadingScreen />
+          <CustomCursor />
           <ScrollProgress />
-          <MouseBackground />
           <Header />
           {children}
         </ThemeProvider>
