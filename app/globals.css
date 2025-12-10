@@ -26,11 +26,14 @@ html {
   height: 100%;
   scroll-behavior: smooth;
   scroll-padding-top: 5rem; /* Account for fixed header */
+  overflow-x: hidden;
 }
 
 body {
   margin: 0;
   padding: 0;
+  overflow-x: hidden;
+  width: 100%;
 }
 
 /* Dark mode overrides */
