@@ -88,7 +88,7 @@ export function Header() {
                             onClick={(e) => handleNavClick(e, "/")}
                             className="text-2xl font-bold tracking-tighter bg-gradient-to-r from-gray-900 via-gray-700 to-gray-900 bg-clip-text text-transparent hover:from-gray-800 hover:via-gray-600 hover:to-gray-800 transition-all dark:from-white dark:via-gray-300 dark:to-white dark:hover:from-gray-100 dark:hover:via-gray-400 dark:hover:to-gray-100"
                         >
-                            Portfolio
+                            Ibrahim Khantach
                         </Link>
                     </div>
 

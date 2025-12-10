@@ -208,7 +208,7 @@ export default function ProjectDetail({ params }: { params: Promise<{ id: string
                                 </ul>
                             </div>
 
-                            {project.liveUrl && project.liveUrl !== "#" && (
+                            {project.liveUrl && (
                                 <Link
                                     href={project.liveUrl}
                                     target="_blank"
@@ -231,6 +231,17 @@ export default function ProjectDetail({ params }: { params: Promise<{ id: string
                             viewport={{ once: true, margin: "-100px" }}
                             transition={{ duration: 0.6 }}
                         >
+                            {project.liveUrl && (
+                                <div className="lg:hidden mb-8">
+                                    <Link
+                                        href={project.liveUrl}
+                                        target="_blank"
+                                        className="flex items-center justify-center gap-2 w-full px-6 py-4 bg-blue-600 hover:bg-blue-700 text-white rounded-xl font-bold transition-colors shadow-lg shadow-blue-500/20"
+                                    >
+                                        View Live Project <ExternalLink className="w-5 h-5" />
+                                    </Link>
+                                </div>
+                            )}
                             <div>
                                 <h3 className="text-3xl font-bold text-gray-900 dark:text-white mb-8 flex items-center gap-3">
                                     <div className="p-2 bg-blue-100 dark:bg-blue-950 rounded-lg">
