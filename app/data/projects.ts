@@ -2,7 +2,72 @@ import { Clock, Users, Lightbulb, Sparkles } from "lucide-react"
 
 export const projects = [
     {
-        id: 1,
+        
+    id: 1,
+    title: "Travelo: Digital Tourism Gateway ",
+    description: "Architected and developed a comprehensive  tourism portal connecting travelers with experiences. Built a scalable backend utilizing Laravel  for streamlined content and vendor management, integrated with a high-performance Vue.js frontend to deliver an intuitive, fast, and responsive user experience.",
+    imageFolder: "/images_projects/travelo",
+    coverImage: "/images_projects/travelo/chrome_9EXKPkwc0B.png",
+    images: [
+        "/images_projects/travelo/chrome_9EXKPkwc0B.png",
+        "/images_projects/travelo/chrome_DbkFuNhcSQ.png",
+        "/images_projects/travelo/chrome_P7bVe54HGr.png",
+        "/images_projects/travelo/chrome_SphKGAunyx.png",
+        "/images_projects/travelo/chrome_aFYYqbRZiK.png",
+        "/images_projects/travelo/chrome_ol2CRBK2Fj.png",
+        "/images_projects/travelo/chrome_zyo7piLwc4.jpg"
+    ],
+    tech: ["Laravel", "Vue.js", "Postgres sql", "Tailwind CSS"],
+    liveUrl: "#",
+    features: [
+        "Regional Tourism Directory: A dynamic, easily navigable directory showcasing local accommodations, guided excursions, and exclusive attractions ",
+        "Advanced Content Management: A robust administrative dashboard , enabling seamless management of tourist listings, vendors, and platform data.",
+        "Optimized Search Architecture: High-performance filtering and search capabilities allowing users to quickly find experiences tailored to their travel preferences.",
+        "Modern & Responsive UI: An intuitive frontend interface developed with Vue.js, ensuring fast load times and a smooth exploration experience across all devices."
+    ]
+},
+    {
+        id: 2,
+        title: "Interactive management system for live competitions",
+        description:
+            "I programmed and designed a comprehensive interactive platform for managing live competitions and intellectual challenges. The system provides organizers with a complete 'control room' that allows them to manage the event seamlessly. The platform relies on real-time communication technologies to ensure that actions taken by the organizer (such as introducing a new question, starting a timer, or changing scores) are instantly synchronized and displayed on the public screen for the audience and participants without any delay.",
+        imageFolder: "/images_projects/realTimeApp",
+        coverImage: "/images_projects/realTimeApp/chrome_wfzm1WVq49.png",
+        images: [
+            "/images_projects/realTimeApp/chrome_3fGzYLi9j3.png",
+            "/images_projects/realTimeApp/chrome_SjnUqgSzta.png",
+            "/images_projects/realTimeApp/chrome_wfzm1WVq49.png",
+            "/images_projects/realTimeApp/rIm7SfL8Dt.png"
+        ],
+        tech: ["Node js", "WebSockets", "React.js", "Tailwind CSS"],
+        liveUrl: "#",
+        features: [
+"Real-Time Event Control: A precise synchronization system (WebSockets) for displaying visual questions (such as visual puzzles) and seamlessly transitioning between rounds.",
+"Time and Media Management: Programmable quick control buttons for managing timers (on, off, quick countdown) and controlling the on/off of multimedia accompanying the question.",
+"Live Score Tracking: A dedicated interface for managing active teams allows judges to add or deduct points with the click of a button and instantly update the final score.",
+"Enhanced User Interface: A design that incorporates Dark Mode to reduce eye strain and provide a clear working environment for organizers during live events."   ,     
+]
+    },
+   
+    {
+        id: 3,
+        title: "WordPress Real Estate Website",
+        description:
+            "WordPress Real Estate Website",
+        imageFolder: "/images_projects",
+        coverImage: "/images_projects/raynham.png",
+        images: [
+            "/images_projects/raynham.png"
+        ],
+        tech: ["wordPress", "php", "MySQL"],
+        liveUrl: "https://raynhamltd.com/",
+        features: [
+            "Responsive & SEO Optimized: A mobile-first design approach that ensures a flawless browsing experience across all devices, backed by strong technical SEO to improve search rankings.",
+            
+        ]
+    },
+     {
+        id: 4,
         title: "Medical Appointment Booking App",
         description:
             "A complete appointment scheduling system allowing patients to book medical appointments. Includes doctor profiles, specialties, verification via email, and an Doctor dashboard. Built with a secure Node.js backend and a responsive React UI.",
@@ -29,7 +94,7 @@ export const projects = [
         ]
     },
     {
-        id: 2,
+        id: 5,
         title: "Architect Portfolio & Project Showcase",
         description:
             "A complete architecture portfolio platform with a modern Next.js interface and a powerful Laravel backend. Includes project galleries, service sections, a secure contact system, and an admin dashboard for managing appointments , and client inquiries.",
@@ -53,7 +118,7 @@ export const projects = [
         ]
     },
     {
-        id: 3,
+        id: 6,
         title: "E-Commerce Platform",
         description: "A feature-rich e-commerce solution supporting product browsing, cart management, secure checkout.",
         imageFolder: "/images_projects/ecoomerce",
@@ -78,7 +143,7 @@ export const projects = [
         ]
     },
     {
-        id: 4,
+        id: 7,
         title: "Aventures Platform",
         description: "Aventures platform is a web application that allows users to discover and add adventures. It features a user-friendly interface, a secure authentication system, and a database of adventures. The platform also includes a statictics aventures and users.",
         imageFolder: "/images_projects/plateformVoyage",
@@ -102,7 +167,7 @@ export const projects = [
         ]
     },
     {
-        id: 5,
+        id: 8,
         title: "MECUM",
         description: "An immersive exhibition that unveils modern and traditional works through an interactive visual journey, offering visitors a unique and inspiring experience.",
         imageFolder: "/images_projects",
@@ -119,7 +184,7 @@ export const projects = [
         ]
     },
     {
-        id: 6,
+        id: 9,
         title: "Movie Discovery App",
         description: "A movie site web allowing users to search for movies, view details, reviews, and create watchlists.",
         imageFolder: "/images_projects",
@@ -137,7 +202,7 @@ export const projects = [
         ]
     },
     {
-        id: 7,
+        id: 10,
         title: "Shoes Store",
         description: "A shoes store website allowing users to search for shoes, view details, reviews.",
         imageFolder: "/images_projects",
